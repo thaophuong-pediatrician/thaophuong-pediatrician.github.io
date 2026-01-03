@@ -1,0 +1,298 @@
+/* Base styles */
+body,
+.body-fauxcolumn-outer {
+  background: #ffffff;
+  margin: 0;
+  color: #333333;
+  font: x-small Georgia Serif;
+  font-size: small;
+  text-align: center;
+}
+
+a:link {
+  color: #5588aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #999999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cc6600;
+  text-decoration: underline;
+}
+
+a img {
+  border-width: 0;
+}
+
+/* Header */
+#header-wrapper {
+  width: 760px;
+  margin: 0 auto 10px;
+  border: 1px solid #cccccc;
+}
+
+#header-inner {
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  margin: 5px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  color: #666666;
+}
+
+#header h1 {
+  margin: 5px 5px 0;
+  padding: 15px 20px 0.25em;
+  line-height: 1.2em;
+  letter-spacing: 0.1em;
+  font: normal normal 200% Georgia, Serif;
+}
+
+#header a {
+  color: #666666;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: #666666;
+}
+
+#header .description {
+  margin: 0 5px 5px;
+  padding: 0 20px 15px;
+  max-width: 700px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.4em;
+  font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+  color: #999999;
+}
+
+#header img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Outer-Wrapper */
+#outer-wrapper {
+  width: 760px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  font: normal normal 100% Georgia, Serif;
+}
+
+#main-wrapper {
+  width: 510px;
+  float: left;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+/* Headings */
+h2 {
+  margin: 1.5em 0 0.75em;
+  font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #999999;
+}
+
+/* Posts */
+.post {
+  margin: 0.5em 0 1.5em;
+  border-bottom: 1px dotted #cccccc;
+  padding-bottom: 1.5em;
+}
+
+.post h3 {
+  margin: 0.25em 0 0;
+  padding: 0 0 4px;
+  font-size: 140%;
+  font-weight: normal;
+  line-height: 1.4em;
+  color: #cc6600;
+}
+
+.post h3 a,
+.post h3 a:visited,
+.post h3 strong {
+  display: block;
+  text-decoration: none;
+  color: #cc6600;
+  font-weight: normal;
+}
+
+.post h3 strong,
+.post h3 a:hover {
+  color: #333333;
+}
+
+.post-body {
+  margin: 0 0 0.75em;
+  line-height: 1.6em;
+}
+
+.post-body blockquote {
+  line-height: 1.3em;
+}
+
+.post-footer {
+  margin: 0.75em 0;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+  line-height: 1.4em;
+}
+
+.post img {
+  padding: 4px;
+  border: 1px solid #cccccc;
+}
+
+.post blockquote {
+  margin: 1em 0em;
+  padding: 1em;
+  border-left: 5px solid silver;
+  font-style: italic;
+}
+
+.post blockquote p {
+  margin: 0.75em 0;
+}
+
+/* Calculator styles */
+.calculator {
+  margin: 1em 0.5em;
+  padding: 2em 0em;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border-top: 1px dotted #cccccc;
+  border-bottom: 1px dotted #cccccc;
+}
+
+.calculator table {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border-collapse: collapse;
+}
+
+input {
+  width: 8em;
+}
+
+input.borderline {
+  outline: none;
+  border-style: none;
+  border: 0;
+  background-color: #ffbe5c;
+  text-align: center;
+}
+
+input.mild {
+  outline: none;
+  border-style: none;
+  border: 0;
+  background-color: #ffa929;
+  text-align: center;
+}
+
+input.moderate {
+  outline: none;
+  border-style: none;
+  border: 0;
+  background-color: #ff4d4d;
+  text-align: center;
+}
+
+input.severe {
+  background-color: #ff3333;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  border-style: none;
+  border: 0;
+}
+
+input.normal {
+  background-color: #b8d3ff;
+  text-align: center;
+  border-style: none;
+  border: 0;
+  outline: none;
+}
+
+input.results {
+  border-style: none;
+  outline: none;
+  text-align: center;
+  color: #000;
+  background-color: #ffffff;
+}
+
+.label {
+  text-align: right;
+  padding-right: 0.2em;
+}
+
+.button {
+  width: 98%;
+}
+
+td.borderline {
+  background-color: #ffbe5c;
+  text-align: center;
+}
+
+td.mild {
+  background-color: #ffa929;
+  text-align: center;
+}
+
+td.moderate {
+  background-color: #ff4d4d;
+  text-align: center;
+}
+
+td.severe {
+  background-color: #ff3333;
+  font-weight: bold;
+  text-align: center;
+}
+
+td.normal {
+  background-color: #b8d3ff;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+td.results {
+  text-align: center;
+}
+
+/* Additional styles */
+div.info {
+  overflow: auto;
+  text-align: left;
+  background-color: #ffcccc;
+  padding-left: 1em;
+}
+
+/* Clear fix */
+.clear {
+  clear: both;
+}
+
