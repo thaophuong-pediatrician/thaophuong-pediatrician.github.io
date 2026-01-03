@@ -38,8 +38,20 @@ npm run dev
 
 ```bash
 npm run build
-npm start
 ```
+
+This creates a static export in the `out` directory, ready for GitHub Pages deployment.
+
+### Deploying to GitHub Pages
+
+The repository is configured for automatic deployment via GitHub Actions. See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+
+**Quick setup:**
+1. Enable GitHub Pages in repository Settings → Pages
+2. Select "GitHub Actions" as the source
+3. Push to `main` branch - deployment happens automatically!
+
+Your site will be available at: `https://thaophuong-pediatrician.github.io/`
 
 ## Reference
 

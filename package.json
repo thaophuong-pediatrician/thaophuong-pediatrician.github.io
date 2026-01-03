@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "node test-calculator.js && node test-zscore-flags.js"
   },
   "dependencies": {
     "react": "^18.2.0",
